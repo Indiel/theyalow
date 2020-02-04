@@ -46,9 +46,6 @@
                 </ul>
             </div>
         </nav>
-    </header>
-
-    <main class="page-main">
         <h1 class="visually-hidden">Lorem ipsum</h1>
         <section class="video-slider">
             <div class="video-slider__wrapper">
@@ -76,7 +73,42 @@
                     </li>
                 </ul>
             </div>
+            <button class="video-slider__btn video-slider__btn--prev"></button>
+            <button class="video-slider__btn video-slider__btn--next"></button>
         </section>
+    </header>
+
+    <main class="page-main">
+        <!-- <h1 class="visually-hidden">Lorem ipsum</h1>
+        <section class="video-slider">
+            <div class="video-slider__wrapper">
+                <h2 class="visually-hidden">TheYalow presentation</h2>
+                <ul class="video-slider__list">
+                    <li class="video-slider__item">
+                        <div class="video-slider__video-wrapper">
+                            <video class="video-slider__video" poster="assets/img/video-poster.png">
+                                <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                                <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                                <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+                            </video>
+                            <div class="video-slider__control-panel">
+                                <div class="video-slider__play-big"></div>
+                                <div class="video-slider__play"></div>
+                                <div class="video-slider__control"></div>
+                                <div class="video-slider__control-nav"></div>
+                                <div class="video-slider__sound"></div>
+                            </div>
+                        </div>
+                        <div class="video-slider__info">
+                            <p>The cool</p>
+                            <p>The minimal</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="video-slider__btn video-slider__btn--prev"></button>
+            <button class="video-slider__btn video-slider__btn--next"></button>
+        </section> -->
         <section class="advantages">
             <h2 class="visually-hidden">Advantages</h2>
             <ul class="advantages__list">
@@ -136,9 +168,11 @@
                 </div>
             </div>
             <article class="tweet__twitter-send twitter-send">
+                <p class="tweet__count">22</p>
                 <div class="twitter-send__img">
                     <img src="assets/img/tweet-twitter.png" alt="">
                 </div>
+                <button class="tweet__plus tweet__plus--send"><span>+</span></button>
                 <div class="twitter-send__form-wrapper">
                     <ul class="twitter-send__messages-list">
                         <li class="twitter-send__message-item">
@@ -160,7 +194,9 @@
                     </form>
                 </div>
             </article>
-            <div class="tweet__control"></div>
+            <div class="tweet__control">
+                <div class="tweet__control-pin"></div>
+            </div>
         </section>
         <section class="adaptive">
             <div class="adaptive__wrapper">
